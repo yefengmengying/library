@@ -17,7 +17,7 @@ COPY --from=builder /usr/bin/spark-operator /usr/bin/
 RUN apt-get update \
     && apt-get install -y openssl curl tini \
     && rm -rf /var/lib/apt/lists/*
-COPY hack/gencerts.sh /usr/bin/
+COPY gencerts.sh /usr/bin/
 
 COPY entrypoint.sh /usr/bin/
 ENTRYPOINT ["/usr/bin/entrypoint.sh"]
