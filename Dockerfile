@@ -30,4 +30,6 @@
 
 # FROM gcr.io/spark-operator/spark:v3.0.0
 
-FROM gcr.io/flink-operator/flink-operator:latest
+# FROM gcr.io/flink-operator/flink-operator:latest
+
+FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
