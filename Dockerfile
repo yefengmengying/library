@@ -34,5 +34,7 @@
 
 # FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
 
-FROM ghcr.io/banzaicloud/jmx-javaagent:0.16.1
+# FROM ghcr.io/banzaicloud/jmx-javaagent:0.16.1
+
+FROM ghcr.io/banzaicloud/kafka:2.13-3.1.0
 
