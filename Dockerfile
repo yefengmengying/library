@@ -32,4 +32,7 @@
 
 # FROM ghcr.io/spotify/flink-operator:v0.3.5
 
-FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+# FROM gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
+
+FROM ghcr.io/banzaicloud/jmx-javaagent:0.16.1
+
