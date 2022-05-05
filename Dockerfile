@@ -40,4 +40,6 @@
 
 #FROM ghcr.io/banzaicloud/cruise-control:2.5.86
 
-FROM registry.opensource.zalan.do/poirot/es-operator
+# FROM registry.opensource.zalan.do/poirot/es-operator
+
+FROM ghcr.io/banzaicloud/kafka:2.13-2.8.1
