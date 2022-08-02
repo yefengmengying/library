@@ -42,4 +42,6 @@
 
 # FROM registry.opensource.zalan.do/poirot/es-operator
 
-FROM ghcr.io/banzaicloud/kafka:2.13-2.8.1
+#FROM ghcr.io/banzaicloud/kafka:2.13-2.8.1
+
+FROM ghcr.io/googlecloudplatform/spark-operator:v1beta2-1.3.7-3.1.1
